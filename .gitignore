@@ -1,0 +1,24 @@
+# Build outputs
+build/
+app/build/
+*.apk
+*.ap_
+*.aab
+
+# Gradle
+.gradle/
+.takdev/
+local.properties
+
+# IDE
+.idea/
+*.iml
+.DS_Store
+
+# Temporary files
+*.swp
+*.swo
+*~
+
+# Log files
+*.log

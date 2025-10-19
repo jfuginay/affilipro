@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App -->
+    <string name="app_name">Affiliation Pro</string>
+    <!-- description -->
+    <string name="app_desc">Change marker affiliations (Unknown, Neutral, Friendly, Hostile) with team-wide COT broadcasting</string>
+
+    <!-- Affiliation Labels -->
+    <string name="affiliation_unknown">Unknown</string>
+    <string name="affiliation_neutral">Neutral</string>
+    <string name="affiliation_friendly">Friendly</string>
+    <string name="affiliation_hostile">Hostile</string>
+    <string name="affiliation_menu_label">Affiliation</string>
+    <string name="affiliation_change_success">Affiliation updated and broadcasted</string>
+
+</resources>
