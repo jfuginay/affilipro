@@ -1,4 +1,4 @@
-package com.atakmap.android.plugintemplate.plugin;
+package com.atakmap.android.omnicot.plugin;
 
 import android.util.Log;
 import android.widget.Toast;
@@ -88,7 +88,7 @@ public class AffiliationUpdater {
                 }
                 String existingRemarks = remarks.getInnerText();
                 String newRemarks = "Affiliation changed to " + newAffiliation.label +
-                                  " via Affiliation Pro plugin";
+                                  " via OmniCOT plugin";
                 if (existingRemarks != null && !existingRemarks.isEmpty()) {
                     newRemarks = existingRemarks + "; " + newRemarks;
                 }
@@ -103,6 +103,10 @@ public class AffiliationUpdater {
             // Update local metadata for immediate feedback
             mapItem.setType(newType);
             mapItem.setMetaString("affiliation", newAffiliation.label);
+            
+            // Mark this item as updated by OmniCOT for statistics tracking
+            CotStatistics.markAsUpdated(mapItem);
+            
             mapItem.persist(MapView.getMapView().getMapEventDispatcher(), null,
                           AffiliationUpdater.class);
 

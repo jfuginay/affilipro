@@ -1,4 +1,4 @@
-package com.atakmap.android.plugintemplate.plugin;
+package com.atakmap.android.omnicot.plugin;
 
 import android.content.Context;
 import android.util.Log;

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- App -->
-    <string name="app_name">Affiliation Pro</string>
+    <string name="app_name">OmniCOT</string>
     <!-- description -->
     <string name="app_desc">Change marker affiliations (Unknown, Neutral, Friendly, Hostile) with team-wide COT broadcasting</string>
 
@@ -12,5 +12,18 @@
     <string name="affiliation_hostile">Hostile</string>
     <string name="affiliation_menu_label">Affiliation</string>
     <string name="affiliation_change_success">Affiliation updated and broadcasted</string>
+
+    <!-- AOI Management -->
+    <string name="aoi_management_title">AOI Management</string>
+    <string name="aoi_empty_title">No AOIs Found</string>
+    <string name="aoi_empty_instructions">To create an Area of Interest:\n\n1. Tap the Drawing Tools icon on the map\n2. Select Rectangle, Circle, or Freehand\n3. Draw your AOI on the map\n4. Return here to manage it</string>
+    <string name="aoi_refresh">Refresh</string>
+    <string name="aoi_zoom_to">Zoom To</string>
+    <string name="aoi_delete">Delete</string>
+    <string name="aoi_area_label">Area:</string>
+    <string name="aoi_center_label">Center:</string>
+    <string name="aoi_deleted">Deleted %s</string>
+    <string name="aoi_zooming_to">Zooming to %s</string>
+    <string name="aoi_list_refreshed">AOI list refreshed</string>
 
 </resources>

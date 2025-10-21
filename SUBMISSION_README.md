@@ -1,10 +1,10 @@
-# Affiliation Pro - TAK Third-Party Plugin Submission
+# OmniCOT - TAK Third-Party Plugin Submission
 
 ## Plugin Information
-- **Plugin Name**: Affiliation Pro
+- **Plugin Name**: OmniCOT
 - **Version**: 0.1
 - **Target ATAK Version**: 5.5.0 (CIV, MIL, GOV compatible)
-- **Package Name**: com.atakmap.android.plugintemplate.plugin
+- **Package Name**: com.atakmap.android.omnicot.plugin
 - **Description**: Allows users to change COT marker affiliations (Unknown, Neutral, Friendly, Hostile) with real-time broadcasting to all team members
 
 ## Build Instructions
@@ -46,7 +46,7 @@ cd omnicot
 ### Source Files
 - `AffiliationUpdater.java` - Core COT event handling and broadcasting logic
 - `AffiliationMenuFactory.java` - Radial menu factory implementation
-- `PluginTemplate.java` - Main plugin lifecycle management
+- `OmniCOTPlugin.java` - Main plugin lifecycle management
 - Icon resources in `app/src/main/res/drawable/`
 
 ### ATAK APIs Used

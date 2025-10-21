@@ -1,5 +1,5 @@
 
-package com.atakmap.android.plugintemplate.plugin;
+package com.atakmap.android.omnicot.plugin;
 
 import java.io.File;
 import android.content.Context;

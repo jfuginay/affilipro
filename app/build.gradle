@@ -107,7 +107,7 @@ def supportedFlavors =
 
 android {
     compileSdk 35
-    namespace 'com.atakmap.android.plugintemplate.plugin'
+    namespace 'com.atakmap.android.omnicot.plugin'
 
     buildFeatures {
         buildConfig = true

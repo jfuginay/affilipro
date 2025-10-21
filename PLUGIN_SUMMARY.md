@@ -1,7 +1,7 @@
-# Affiliation Pro Plugin for ATAK
+# OmniCOT Plugin for ATAK
 
 ## Overview
-The Affiliation Pro plugin allows users to change the affiliation of any COT marker on the map with changes broadcasted to all BlueTeam members in real-time.
+The OmniCOT plugin allows users to change the affiliation of any COT marker on the map with changes broadcasted to all BlueTeam members in real-time.
 
 ## Features
 - **Radial Menu Integration**: Tap any COT marker to see an "Affiliation" button in the native ATAK radial menu
@@ -18,7 +18,7 @@ The Affiliation Pro plugin allows users to change the affiliation of any COT mar
 ### Installation
 1. Install ATAK on your device
 2. Install the plugin APK: `ATAK-Plugin-omnicot-0.1--5.5.0-civ-debug.apk`
-3. Start ATAK and enable the Affiliation Pro plugin
+3. Start ATAK and enable the OmniCOT plugin
 
 ### Changing Marker Affiliation
 1. **Tap** any COT marker on the map
@@ -37,7 +37,7 @@ The Affiliation Pro plugin allows users to change the affiliation of any COT mar
 ### Files Created/Modified
 1. **AffiliationUpdater.java** - Core logic for COT event creation and broadcasting
 2. **AffiliationMenuFactory.java** - Radial menu integration
-3. **PluginTemplate.java** - Main plugin class with lifecycle management
+3. **OmniCOTPlugin.java** - Main plugin class with lifecycle management
 4. **strings.xml** - Updated with affiliation labels
 5. **Drawable resources** - Color-coded icons for each affiliation
 
