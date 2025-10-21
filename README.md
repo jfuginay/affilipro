@@ -58,7 +58,7 @@ A comprehensive ATAK plugin for managing Cursor on Target (CoT) items and Areas 
 
 <table>
   <tr>
-    <td><img src="screenshots/main_dashboard.png" alt="Main Dashboard" width="250"/></td>
+    <td><img src="screenshots/main_dashboard.png?v=2" alt="Main Dashboard" width="250"/></td>
     <td><img src="screenshots/cot_dashboard.png" alt="CoT Dashboard" width="250"/></td>
     <td><img src="screenshots/aoi_management.png" alt="AOI Management" width="250"/></td>
   </tr>
