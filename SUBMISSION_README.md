@@ -20,7 +20,7 @@
 ### Build Commands
 ```bash
 # Navigate to plugin directory
-cd affilipro
+cd omnicot
 
 # Build debug version
 ./gradlew assembleCivDebug
@@ -31,8 +31,8 @@ cd affilipro
 ./gradlew assembleGovRelease
 
 # Output APK locations:
-# - Debug: app/build/outputs/apk/civ/debug/ATAK-Plugin-affilipro-0.1--5.5.0-civ-debug.apk
-# - Release: app/build/outputs/apk/civ/release/ATAK-Plugin-affilipro-0.1--5.5.0-civ-release.apk
+# - Debug: app/build/outputs/apk/civ/debug/ATAK-Plugin-omnicot-0.1--5.5.0-civ-debug.apk
+# - Release: app/build/outputs/apk/civ/release/ATAK-Plugin-omnicot-0.1--5.5.0-civ-release.apk
 ```
 
 ## Key Features

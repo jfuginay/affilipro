@@ -17,7 +17,7 @@ The Affiliation Pro plugin allows users to change the affiliation of any COT mar
 
 ### Installation
 1. Install ATAK on your device
-2. Install the plugin APK: `ATAK-Plugin-affilipro-0.1--5.5.0-civ-debug.apk`
+2. Install the plugin APK: `ATAK-Plugin-omnicot-0.1--5.5.0-civ-debug.apk`
 3. Start ATAK and enable the Affiliation Pro plugin
 
 ### Changing Marker Affiliation
@@ -60,7 +60,7 @@ The plugin preserves all other COT type information (dimension, function, etc.).
 - **Plugin Version**: 0.1
 - **ATAK Version**: 5.5.0 CIV
 - **Build Type**: Debug
-- **APK Location**: `app/build/outputs/apk/civ/debug/ATAK-Plugin-affilipro-0.1--5.5.0-civ-debug.apk`
+- **APK Location**: `app/build/outputs/apk/civ/debug/ATAK-Plugin-omnicot-0.1--5.5.0-civ-debug.apk`
 
 ## Future Enhancements (Optional)
 1. Details panel integration for alternative UI
